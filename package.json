@@ -1,0 +1,13 @@
+{
+  "name": "electronApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/deidrah/electronApp.git",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "5.0.6"
+  },
+  "scripts": {
+    "start": "electron main.js"
+  }
+}
