@@ -1,6 +1,5 @@
 'use strict';
 
-const path = require('path');
 const { app, BrowserWindow } = require('electron');
 
 function main() {
@@ -15,7 +14,7 @@ function main() {
   })
 
   // load app/index.html as the window content
-  mainWindow.loadFile(path.join('app', 'index.html'));
+  mainWindow.loadFile('app/index.html');
 
 }
 
